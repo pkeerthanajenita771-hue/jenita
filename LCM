@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+    int a,b;
+    printf("Enter any 2 numbers;");
+    scanf("%d%d",&a,&b);
+    
+    int big=a>b?a:b;
+    int small=a<b?a:b;
+    int step=big;
+    
+    while (big%small!=0);
+    
+    {
+        big=big+step;
+        printf("lcm is %d",big);
+    }
+}
