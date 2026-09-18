@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdbool.h>
+void main()
+{
+    int arr[]
+={6,2,3,4,5,7,9,8};
+    int len=sizeof(arr)/sizeof(arr[0]);
+    int k;
+    bool f=false;
+    printf("Enter k value to search element in array:");
+    scanf("%d",&k);
+    for(int i=0;i<len;i++){
+        if(k==arr[i]){
+            f=true;
+            printf("\nk element present index:%d",i);
+            break;
+        }
+    }
+    if(!f){
+        printf("\n%d Element not found is k");
+    }
+}
