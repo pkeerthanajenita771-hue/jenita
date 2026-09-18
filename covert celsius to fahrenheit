@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+float celsuis=37.0;
+    float fahrenheit=(celsuis*9/5)+32;
+    printf("%.1f F",fahrenheit);
+    return 0;
+}
