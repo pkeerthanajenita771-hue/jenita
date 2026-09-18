@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int num = 42;
+    int *ptr = &num;
+    printf("value = %d,Adress =%p",*ptr,(void*)ptr);
+    return 0;
+}
